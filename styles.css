@@ -54,7 +54,7 @@ header {
 
 .buttons {
   text-align: center;
-  margin-bottom: 94px;
+  margin-bottom: 137px;
   height: 18px;
 }
 
@@ -66,7 +66,7 @@ header {
   text-align: center;
 }
 
-.iphone-mob, .buttons__mobile {
+.iphone-mob, .buttons__mobile, .buttons__1170 {
   display: none;
 }
 
@@ -134,5 +134,102 @@ header {
 @media (max-width: 1170px) {
   header {
     margin: 27px 70px 99px 50px;
+  }
+}
+
+@media (max-width: 1360px) {
+
+  .buttons, .iphone, .iphone-mob {
+    display: none;
+  }
+  header {
+  margin:  19px 26px 68px 108px;
+  }
+
+  .logo__capture {
+    font: 700 28px/28px PTSans-bold, arial, helvetica, sans-serif;
+  }
+
+  .menu {
+  font:  700 14px/23px PTSans-reg, arial, helvetica, sans-serif;
+  }
+
+  .text {
+    width: 60%;
+    margin-bottom: 41px;
+    font: 700 31px/43px PTSans-bold, arial, helvetica, sans-serif;
+  }
+
+  body {
+    background: left 1% bottom 66% no-repeat url('img/left-figures.svg'),
+                right bottom 45% no-repeat url('img/right-figures1170.svg');
+    background-size: 30%, 30%;
+  }
+
+  .buttons__1170 {
+    display: block;
+      text-align: center;
+      margin-bottom: 47px;
+  }
+
+  .btn-11170 {
+    margin-right: 21px;
+  }
+
+  .iphone-1170 {
+    display: block;
+    text-align: center;
+  }
+}
+
+ @media (max-width: 1920px) {
+.iphone-1170 {
+  display: none;
+}
+
+.logo__capture {
+  font: 700 29px/28px PTSans-bold, arial, helvetica, sans-serif;
+}
+
+  body {
+    margin: 0 auto;
+    background: left -1% bottom 63% no-repeat url('img/left-figures.svg'),
+                right bottom 71% no-repeat url('img/right-figures1170.svg');
+    background-size: 26%, 27%;
+  }
+  }
+
+  .text {
+    width: 61%;
+    font: 700 35px/41px PTSans-bold, arial, helvetica, sans-serif;
+    margin: 0 auto 39px auto;
+  }
+
+  .buttons, .iphone, .iphone-mob {
+    display: none;
+  }
+
+  .buttons__1170 {
+    display: block;
+      text-align: center;
+      margin-bottom: 47px;
+  }
+
+  .btn-11170 {
+    margin-right: 21px;
+  }
+
+  .iphone-1170 {
+    display: block;
+    text-align: center;
+  }
+
+  .menu {
+    margin: 27px 0 0 auto;
+    font: 700 13px/23px PTSans-reg, arial, helvetica, sans-serif;
+  }
+
+  header {
+    margin: 23px 131px 67px 203px;
   }
 }
