@@ -1,0 +1,244 @@
+body {
+  margin: 0 auto;
+  background: left bottom no-repeat url('img/left-figures.svg'),
+              right bottom no-repeat url('img/right-figures.svg');
+  background-size: auto, auto;
+  color: #504A62;
+
+
+}
+
+header {
+  display: flex;
+}
+
+.menu {
+  margin: 33px 0 0 auto;
+  font: 700 18px/23px PTSans-reg, arial, helvetica, sans-serif;
+}
+
+.menu__item {
+  position: relative;
+  text-decoration: none;
+  margin-right: 25px;
+  transition: 0.5s;
+}
+
+.menu__item:hover {
+  letter-spacing: 1px;
+}
+
+.logo {
+  display: inline-flex;
+}
+
+.logo__pic {
+  margin: auto 8px auto 0;
+}
+
+.logo__capture {
+    font: 700 36px/28px PTSans-bold, arial, helvetica, sans-serif;
+}
+
+.main {
+  margin: 0 auto;
+}
+
+.text {
+  width: 47%;
+  margin: 0 auto 58px auto;
+  text-align: center;
+  font: 700 41px/44px PTSans-bold, arial, helvetica, sans-serif;
+}
+
+.buttons {
+  text-align: center;
+  margin-bottom: 137px;
+  height: 18px;
+}
+
+.btn-1 {
+  margin-right: 35px;
+}
+
+.iphone {
+  text-align: center;
+}
+
+.iphone-mob, .buttons__mobile, .buttons__1170 {
+  display: none;
+}
+
+@media (min-width: 200px) {
+  body {
+    background: none;
+  }
+
+  header {
+    display: list-item;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .menu, .iphone-1170, .buttons__1170, .buttons {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: flex;
+    margin: 54px 38px 20px 0;
+  }
+
+  .menu__burger {
+    background: right center no-repeat url(img/burger.svg);
+    width: 25px;
+    height: 17px;
+    margin: 0 0 0 auto;
+  }
+
+  .logo {
+    margin: 0 0 21px;
+  }
+
+  .text {
+    margin: 0 auto 73px auto;
+    width: 79%;
+    font: 700 26px/28px PTSans-bold, arial, helvetica, sans-serif;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  .buttons__mobile {
+    display: block;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+
+  .mob-btn-1 {
+    margin-right: 15px;
+  }
+
+  .iphone {
+    display: none;
+  }
+
+  .iphone-mob {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (min-width: 700px) {
+  header {
+    display: flex;
+    margin: 27px 70px 99px 50px;
+  }
+  body {
+    background: left 1% bottom 66% no-repeat url('img/left-figures.svg'),
+                right bottom 45% no-repeat url('img/right-figures1170.svg');
+    background-size: 30%, 30%;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+}
+
+@media (min-width: 1170px) {
+
+  .buttons, .iphone, .iphone-mob, .buttons__mobile {
+    display: none;
+  }
+  header {
+  margin:  19px 26px 68px 108px;
+  }
+
+  .logo__capture {
+    font: 700 28px/28px PTSans-bold, arial, helvetica, sans-serif;
+  }
+
+  .menu {
+  font:  700 14px/23px PTSans-reg, arial, helvetica, sans-serif;
+  }
+
+  .text {
+    width: 60%;
+    margin-bottom: 41px;
+    font: 700 31px/43px PTSans-bold, arial, helvetica, sans-serif;
+  }
+
+  body {
+    background: left 1% bottom 66% no-repeat url('img/left-figures.svg'),
+                right bottom 45% no-repeat url('img/right-figures1170.svg');
+    background-size: 30%, 30%;
+  }
+
+  .buttons__1170 {
+    display: block;
+      text-align: center;
+      margin-bottom: 47px;
+  }
+
+  .btn-11170 {
+    margin-right: 21px;
+  }
+
+  .iphone-1170 {
+    display: block;
+    text-align: center;
+  }
+}
+
+ @media (min-width: 1360px) {
+
+.logo__capture {
+  font: 700 29px/28px PTSans-bold, arial, helvetica, sans-serif;
+}
+
+  body {
+    margin: 0 auto;
+    background: left -1% bottom 63% no-repeat url('img/left-figures.svg'),
+                right bottom 71% no-repeat url('img/right-figures1170.svg');
+    background-size: 26%, 27%;
+  }
+
+  .text {
+    width: 61%;
+    font: 700 35px/41px PTSans-bold, arial, helvetica, sans-serif;
+    margin: 0 auto 39px auto;
+  }
+
+  .buttons__mobile, .iphone-1170, .iphone-mob, .buttons__1170 {
+    display: none;
+  }
+
+  .buttons {
+    display: block;
+      text-align: center;
+      margin-bottom: 88px;
+  }
+
+  .btn-1 {
+    margin-right: 21px;
+  }
+
+  .iphone {
+    display: block;
+    text-align: center;
+  }
+
+  .menu {
+    margin: 27px 0 0 auto;
+    font: 700 13px/23px PTSans-reg, arial, helvetica, sans-serif;
+  }
+
+  header {
+    margin: 23px 131px 67px 203px;
+  }
+}
