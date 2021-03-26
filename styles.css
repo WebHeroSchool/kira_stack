@@ -80,7 +80,7 @@ header {
     text-align: center;
   }
 
-  .menu, .iphone-1170, .buttons__1170, .buttons, .btn-11170, .btn-21170 {
+  .menu, .iphone-1170, .buttons__1170, .buttons {
     display: none;
   }
 
@@ -152,7 +152,7 @@ header {
 
 @media (min-width: 1170px) {
 
-  .buttons, .iphone, .iphone-mob {
+  .buttons, .iphone, .iphone-mob, .buttons__mobile {
     display: none;
   }
   header {
@@ -196,9 +196,6 @@ header {
 }
 
  @media (min-width: 1360px) {
-.iphone-1170 {
-  display: none;
-}
 
 .logo__capture {
   font: 700 29px/28px PTSans-bold, arial, helvetica, sans-serif;
@@ -217,21 +214,21 @@ header {
     margin: 0 auto 39px auto;
   }
 
-  .buttons, .iphone, .iphone-mob {
+  .buttons__mobile, .iphone-1170, .iphone-mob, .buttons__1170 {
     display: none;
   }
 
-  .buttons__1170 {
+  .buttons {
     display: block;
       text-align: center;
       margin-bottom: 88px;
   }
 
-  .btn-11170 {
+  .btn-1 {
     margin-right: 21px;
   }
 
-  .iphone-1170 {
+  .iphone {
     display: block;
     text-align: center;
   }
